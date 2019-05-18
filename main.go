@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	allowedOrigins := handlers.AllowedOrigins([]string{"http://localhost:8000"})
+	allowedOrigins := handlers.AllowedOrigins([]string{"http://localhost:8080"})
 	allowedMethods := handlers.AllowedMethods([]string{"GET", "POST", "DELETE", "PUT"})
 	allowedHeaders := handlers.AllowedHeaders([]string{"Authorization"})
 
